@@ -206,18 +206,7 @@ header nav ul li a i{
     font-size: 14px;
 
  }
-
- 
-
-
-
-
-
-
-
-
-
-   .right-side{
+    .right-side{
         width: 35%;
         margin-top: 15px;
         position: fixed;
@@ -242,6 +231,79 @@ header nav ul li a i{
     .right-side .profile-title .profile-left .name{
         padding-bottom: 3px;
     }
+    .suggestions{
+        display: flex;
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+
+    .suggestions p{
+        margin-right: 90px ;
+    
+    }
+
+    .suggestions p :last-child{
+        margin-right: 0px ;
+    
+    }
+
+    .suggestions-title{
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+
+    .suggestions-title .suggestions-left{
+        display: flex;
+        align-items: center;
+        margin-right: 60px;
+
+    }
+
+    .suggestions-title .suggestions-left .image img{
+        border-radius: 50%;
+        margin-right: 15px;
+        object-fit: cover;
+    }
+
+    .suggestions-title .suggestions-left .details .name{
+        padding: bottom 3px; ;
+    }
+
+    /*media queries*/
+
+    @media (max-width:992px){
+        header{
+            padding: 10px 20px;
+
+        }
+        section .left-side{
+            width:100%;
+        }
+        section .right-side{
+            display: none;
+        }
+    }
+
+    @media (max-width:768px){
+        header .search-box{
+            display: none;
+        }
+        section{
+            padding: 30px 20px;
+        }
+    }
+
+    @media(max-width:576px){
+        .story .stories{
+            width: 25%;
+        }
+        header nav ul li{
+            margin-right: 10px;
+        }
+    }
+
+    
 
 
 
